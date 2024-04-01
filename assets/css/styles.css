@@ -1,0 +1,88 @@
+.blocks {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: none;
+  margin: none;
+}
+.blocks li {
+  display: flex;
+  justify-content: center;
+}
+.blocks li:nth-child(1) {
+  background-color: rgb(117, 117, 255);
+  padding: 20px 25px;
+  border-radius: 10px;
+}
+.blocks li:nth-child(2) {
+  background-color: rgb(255, 109, 109);
+  padding: 20px 25px;
+  border-radius: 10px;
+}
+.blocks li:nth-child(3) {
+  background-color: rgb(240, 227, 45);
+  padding: 20px 25px;
+  border-radius: 10px;
+}
+
+body {
+  font-family: "Comic Sans MS";
+  color: black;
+  transition: 2s;
+}
+body.dark {
+  background-color: black;
+  color: white;
+}
+body.gray {
+  background-color: rgb(73, 73, 73);
+  color: rgb(198, 255, 112);
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu li {
+  color: white;
+}
+
+.button {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.button button {
+  padding: 20px 25px;
+  font-size: 15px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button button:hover {
+  background-color: purple;
+}
+.button button:focus {
+  outline: none;
+}
+.button button:active {
+  transform: translateY(-2px);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */

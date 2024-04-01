@@ -1,0 +1,28 @@
+body {
+    font-family: $font1;
+    color: $color1;
+    transition: 2s;
+    &.dark {
+      background-color: black;
+      color: white;
+    }
+    &.gray{
+        background-color: rgb(73, 73, 73);
+        color: rgb(198, 255, 112);
+    }
+  }
+  .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li{
+      color: white;
+    }
+  }
